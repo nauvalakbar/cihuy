@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title> Data Mahasiswa Gunadarma</title>
+	
+</head>
+<body bgcolor=white>
+<h1><center> Data Mahasiswa UNIVERSITAS GUNADARMA </center></h1>
+ <table border=1.5 cellpadding=5 cellspacing=3 align=center id='tabelinput'>
+                        <tr>
+                            <td align=center>NPM</td>
+                            <td align=center>NAMA LENGKAP</td>
+							<td align=center>TGL. LAHIR</td>
+                        </tr>
+                        <tr>
+							<td align=center>44117131</td>
+                            <td align=center>Muhammad Nauval Akbar</td>
+							<td align=center>04 JULY 1999</td>
+</tr>
+</table>
+<br>
+
+<pre style="text-indent:14cm; font-family:times new roman; font-size:13pt;">List</pre>
+  <ul>
+	<li style="text-indent:13cm;">Muhammad Nauval Akbar</li>
+    <li style="text-indent:13cm;">Muhammad Akbar Nauval</li>
+    <li style="text-indent:13cm;">Muhammad Akbar</li>
+	</ul>
+<pre style="text-indent:14cm; font-family:roboto;font-size:13pt;">List Number</pre>
+  <ul>
+  <li style="text-indent:13cm;">081234566755</li>
+   <li style="text-indent:13cm;">081763535699</li>
+  <li style="text-indent:13cm;">087112366736</li>
+	</ul>
+	<br>
+<form name='biodata' method='post' action='index.html' align=center>
+<pre>
+NPM     	: <input type='text' name='npm'><p id='val_npm'></p>
+Nama    	: <input type='text' name='nama' ><p id='val_nama'></p>
+Tgl Lahir       :     <input type='date' name='tgllahir' ><p id='val_tgl'></p>
+  <input type='button' onClick='terimainput()' value='Simpan'> <input type='reset' value='Ulangi'>
+
+</form>
+</body>
+</html>
